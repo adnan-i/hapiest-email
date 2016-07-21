@@ -1,5 +1,6 @@
 {
   "mailgun": {
+    "enabled": false,
     "mailgunApiKey": "someapikey",
     "mailgunFromDomain": "mg.somedomain.com",
     "fromEmailAddress": "dev@somedomain.com",

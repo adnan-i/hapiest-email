@@ -1,6 +1,6 @@
 {
   "name": "hapiest-email",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple email service.  Currently only supports mailgun but may expand over time.",
   "main": "index.js",
   "dependencies": {
@@ -11,12 +11,15 @@
   "devDependencies": {
     "config": "1.21.0",
     "config-uncached": "1.0.2",
+    "hapiest-logger": "0.0.5",
     "mocha": "2.5.3",
     "should": "10.0.0",
     "sinon": "1.17.4"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "node node_modules/mocha/bin/mocha test/unit --recursive",
+    "test:integration": "node node_modules/mocha/bin/mocha test/integration --recursive"
   },
   "repository": {
     "type": "git",
