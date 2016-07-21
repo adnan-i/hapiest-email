@@ -1,0 +1,11 @@
+{
+  "mailgun": {
+    "mailgunApiKey": "someapikey",
+    "mailgunFromDomain": "mg.somedomain.com",
+    "fromEmailAddress": "dev@somedomain.com",
+    "emailLists": {
+      "list1": ["john.doe@somedomain.com","jane.doe@somedomain.com"],
+      "list2": ["david@foundrydc.com", "nick@foundrydc.com"]
+    }
+  }
+}

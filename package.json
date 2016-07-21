@@ -1,0 +1,36 @@
+{
+  "name": "hapiest-email",
+  "version": "0.0.1",
+  "description": "Simple email service.  Currently only supports mailgun but may expand over time.",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "3.4.1",
+    "joi": "9.0.1",
+    "mailgun": "0.5.0"
+  },
+  "devDependencies": {
+    "config": "1.21.0",
+    "config-uncached": "1.0.2",
+    "mocha": "2.5.3",
+    "should": "10.0.0",
+    "sinon": "1.17.4"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fulton/hapiest-email.git"
+  },
+  "keywords": [
+    "hapiest",
+    "email",
+    "mailgun"
+  ],
+  "author": "Jonathan Fulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-fulton/hapiest-email/issues"
+  },
+  "homepage": "https://github.com/jonathan-fulton/hapiest-email#readme"
+}
