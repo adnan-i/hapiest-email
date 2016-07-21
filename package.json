@@ -1,6 +1,6 @@
 {
   "name": "hapiest-email",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple email service.  Currently only supports mailgun but may expand over time.",
   "main": "index.js",
   "dependencies": {
